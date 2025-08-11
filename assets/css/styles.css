@@ -312,7 +312,7 @@ img {
 }
 
 .home__blob-img {
-    width: 170px;
+    width: 300px;
 }
 
 .home__data {
@@ -533,8 +533,49 @@ img {
     background-color: var(--first-color);
 }
 
-.skills__html {
-    width: 100%;
+.skills__dsa {
+    width: 70%;
+}
+.skills__java {
+    width: 85%;
+}
+.skills__python {
+    width: 55%;
+}
+.skills__html{
+    width: 90%;
+}
+.skills__css{
+    width: 80%;
+}
+.skills__js{
+    width: 70%;
+}
+.skills__react{
+    width: 80%;
+}
+.skills__php{
+  width: 80%;
+}
+
+.skills__node{
+  width: 70%;
+}
+
+.skills__firebase{
+  width: 90%;
+}
+.skills__python{
+  width: 55%;
+}
+.skills__figma{
+  width: 50%;
+}
+.skills__sketch{
+  width: 85%;
+}
+.skills__photoshop{
+  width: 85%;
 }
 
 .skills__close .skills__list {
@@ -814,13 +855,26 @@ img {
 }
 
 .project__img {
-    width: 232px;
+    width: 260px;
     justify-self: center;
 }
 
+.project__data{
+    padding-left: 1rem;
+}
+
 /*==================== TESTIMONIAL ====================*/
+
+/* .swiper-wrapper{
+    padding: 0 1rem 0 1rem;
+} */
+.swiper-slide{
+    padding: 0 .75rem 0 .75rem;
+    width: 50%;
+}
 .testimonial__data, .testimonial__header {
     display: flex;
+
 }
 
 .testimonial__data {
@@ -1008,6 +1062,12 @@ img {
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px) {
+     .home__title{
+    font-size: 1.5rem;
+  }
+  .footer__title{
+    font-size: 1.5rem;
+  }
     .container {
         margin-left: var(--mb-1);
         margin-right: var(--mb-1);
@@ -1069,6 +1129,7 @@ img {
 
 /* For medium devices */
 @media screen and (min-width: 568px) {
+
     .home__content {
         grid-template-columns: max-content 1fr 1fr;
     }
@@ -1096,6 +1157,8 @@ img {
     }
 
     @media screen and (min-width: 768px) {
+
+
         .container {
             margin-left: auto;
             margin-right: auto;
@@ -1245,6 +1308,22 @@ img {
 
 /* For large devices */
 @media screen and (min-width: 1024px) {
+
+     .home__title{
+    font-size: 1.75rem;
+  }
+  .footer__title{
+    font-size: 1.75rem;
+  }
+
+    .swiper-button-prev {
+    left: -1rem !important;
+}
+
+.swiper-button-next {
+    right: -1rem !important;
+}
+
     .header,
     .main,
     .footer__container {

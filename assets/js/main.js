@@ -40,14 +40,14 @@ const skillsContent = document.getElementsByClassName('skills__content'),
           skillsContent[i].className = 'skills__content skills__close'
         }
         if(itemClass === 'skills__content skills__close'){
-          this.parentNode.className = 'skills__content skills_open'
+          this.parentNode.className = 'skills__content skills__open'
         }
       }
       
       skillsHeader.forEach((el) => {
         el.addEventListener('click', toggleSkills)
       })
-
+ 
       
 
 /*==================== QUALIFICATION TABS ====================*/
