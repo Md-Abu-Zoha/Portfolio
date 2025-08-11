@@ -3,7 +3,7 @@
 
 /*==================== VARIABLES CSS ====================*/
 :root {
-    --header-height: 3rem;
+    --header-height: 4rem;
 
     /*========== Colors ==========*/
     /* Change favorite color */
@@ -191,7 +191,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-
+   
 }
 
 .nav__logo, .nav__toggle {
