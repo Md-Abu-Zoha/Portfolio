@@ -202,3 +202,42 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+/*==================== CONTACT FORM AJAX ====================*/
+const contactForm = document.getElementById('contact-form')
+if(contactForm){
+    contactForm.addEventListener('submit', async (e) => {
+        e.preventDefault()
+        const button = contactForm.querySelector('button[type="submit"]')
+        const originalText = button.innerHTML
+        
+        // Show loading state
+        button.disabled = true
+        button.innerText = 'Sending...'
+
+        const formData = new FormData(contactForm)
+        
+        try {
+            const response = await fetch(contactForm.action, {
+                method: 'POST',
+                body: formData,
+                headers: {
+                    'Accept': 'application/json'
+                }
+            })
+            
+            if (response.ok) {
+                alert('Message sent successfully!')
+                contactForm.reset() // Clears the form inputs
+            } else {
+                alert('Oops! There was a problem submitting your form')
+            }
+        } catch (error) {
+            alert('Oops! There was a problem submitting your form')
+        } finally {
+            // Restore button state
+            button.disabled = false
+            button.innerHTML = originalText
+        }
+    })
+}

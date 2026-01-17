@@ -882,7 +882,6 @@ img {
 } */
 .swiper-slide{
     padding: 0 .75rem 0 .75rem;
-    width: 50%;
 }
 .testimonial__data, .testimonial__header {
     display: flex;
