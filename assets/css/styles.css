@@ -562,6 +562,18 @@ img {
   width: 70%;
 }
 
+.skills__express{
+  width: 85%;
+}
+
+.skills__sql{
+  width: 80%;
+}
+
+.skills__mongodb{
+  width: 75%;
+}
+
 .skills__firebase{
   width: 90%;
 }
