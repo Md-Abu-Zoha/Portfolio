@@ -1,6 +1,6 @@
 # Md Abu Zoha - Personal Portfolio
 
-![Portfolio Preview](assets/img/portfolio_preview.png)
+<img src="assets/img/portfolio_preview.png" alt="Portfolio Preview" width="800">
 
 A clean, responsive personal portfolio website built to showcase my projects and skills as a Full Stack Developer.
 
