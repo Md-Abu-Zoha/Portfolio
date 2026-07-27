@@ -1,6 +1,14 @@
-Responsive Portfolio Website 
+# Md Abu Zoha - Personal Portfolio
 
-Responsive Portfolio Website Using Html, Css and JavaScript, with a beautiful user interface. It contains a Header, Home, About, Skills, Qualification, Services, Portfolio, Project in mind, Testimonial, Contact and Footer. Made by <a href="https://md-abu-zoha.github.io/Portfolio/" target="_blank">Md Abu Zoha</a>.
+![Portfolio Preview](assets/img/portfolio_preview.png)
 
-Leave a star if my code was useful to you !!
+A clean, responsive personal portfolio website built to showcase my projects and skills as a Full Stack Developer.
 
+### 🌐 [View Live Portfolio](https://md-abu-zoha.github.io/Portfolio/)
+
+## 📬 Contact
+* **Email:** mdabuzohaofficial@gmail.com
+* **LinkedIn:** [Md Abu Zoha](https://www.linkedin.com/in/mdabuzoha/)
+
+---
+*Leave a ⭐ if you found this repository helpful!*
