@@ -794,6 +794,8 @@ img {
 
 .portfolio__img {
     width: 265px;
+    aspect-ratio: 1.5;
+    object-fit: cover;
     border-radius: .5rem;
     justify-self: center;
 }
