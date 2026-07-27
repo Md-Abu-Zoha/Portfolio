@@ -121,7 +121,7 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
   spaceBetween: 48,
 
   pagination: {
-    el: '.swiper-pagination',
+    el: '.swiper-pagination-testimonial',
     clickable: true,
     dynamicBullets: true,
   },
