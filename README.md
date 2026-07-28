@@ -4,11 +4,11 @@
 
 A clean, responsive personal portfolio website built to showcase my projects and skills as a Full Stack Developer.
 
-### 🌐 [View Live Portfolio](https://md-abu-zoha.github.io/Portfolio/)
+### [View Live Portfolio](https://md-abu-zoha.github.io/Portfolio/)
 
-## 📬 Contact
+## Contact
 * **Email:** mdabuzohaofficial@gmail.com
 * **LinkedIn:** [Md Abu Zoha](https://www.linkedin.com/in/mdabuzoha/)
 
 ---
-*Leave a ⭐ if you found this repository helpful!*
+*If you found this repository helpful, please consider leaving a star!*
